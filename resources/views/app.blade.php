@@ -6,14 +6,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<link rel="stylesheet" href="{{{ asset('public/css/bootstrap.min.css') }}}">
-		<link rel="stylesheet" href="{{{ asset('public/style.css') }}}">
+		<link rel="stylesheet" href="{{{ asset('/css/bootstrap.min.css') }}}">
+		<link rel="stylesheet" href="{{{ asset('/style.css') }}}">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700%7CMontserrat:300,400,600,700">
 		
-		<link rel="stylesheet" href="{{{ asset('public/icons/fontawesome/css/fontawesome-all.min.css') }}}"><!-- FontAwesome Icons -->
-		<link rel="stylesheet" href="{{{ asset('public/icons/Iconsmind__Ultimate_Pack/Lineicons/styles.min.css') }}}"><!-- iconsmind.com Icons -->
+		<link rel="stylesheet" href="{{{ asset('/icons/fontawesome/css/fontawesome-all.min.css') }}}"><!-- FontAwesome Icons -->
+		<link rel="stylesheet" href="{{{ asset('/icons/Iconsmind__Ultimate_Pack/Lineicons/styles.min.css') }}}"><!-- iconsmind.com Icons -->
         
-        <script src="{{{ asset('public/js/libs/jquery-3.3.1.min.js') }}}"></script>
+        <script src="{{{ asset('/js/libs/jquery-3.3.1.min.js') }}}"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
         
 		
@@ -32,7 +32,7 @@
 		<div id="sidebar-bg">
 			
       <header id="videohead-pro" class="sticky-header">
-			<div id="video-logo-background"><a href="dashboard-home.html"><img src="public/images/logo-video-layout.png" alt="Logo"></a></div>
+			<div id="video-logo-background"><a href="dashboard-home.html"><img src="/images/logo-video-layout.png" alt="Logo"></a></div>
 			
 			<div id="video-search-header">
 				<input type="text" placeholder="Search for Movies or TV Series" aria-label="Search">
@@ -128,15 +128,15 @@
 @yield('content')
 
 
-<script src="{{{ asset('public/js/libs/popper.min.js') }}}" defer></script>
-<script src="{{{ asset('public/js/libs/bootstrap.min.js') }}}" defer></script>
-<script src="{{{ asset('public/js/navigation.js') }}}" defer></script>
-<script src="{{{ asset('public/js/jquery.flexslider-min.js') }}}" defer></script>
-<script src="{{{ asset('public/js/jquery-asRange.min.js') }}}" defer></script>
-<script src="{{{ asset('public/js/circle-progress.min.js') }}}" defer></script>
-<script src="{{{ asset('public/js/afterglow.min.js') }}}" defer></script>
-<script src="{{{ asset('public/js/script.js') }}}" defer></script>
-<script src="{{{ asset('public/js/script-dashboard.js') }}}" defer></script>
+<script src="{{{ asset('/js/libs/popper.min.js') }}}" defer></script>
+<script src="{{{ asset('/js/libs/bootstrap.min.js') }}}" defer></script>
+<script src="{{{ asset('/js/navigation.js') }}}" defer></script>
+<script src="{{{ asset('/js/jquery.flexslider-min.js') }}}" defer></script>
+<script src="{{{ asset('/js/jquery-asRange.min.js') }}}" defer></script>
+<script src="{{{ asset('/js/circle-progress.min.js') }}}" defer></script>
+<script src="{{{ asset('/js/afterglow.min.js') }}}" defer></script>
+<script src="{{{ asset('/js/script.js') }}}" defer></script>
+<script src="{{{ asset('/js/script-dashboard.js') }}}" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.15.0/lazyload.min.js"></script>
 <script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
 		
