@@ -4,7 +4,7 @@ Cinestream is a simple popcorn time api based application that allows users to s
 
 ## Steps To Setup The Project
 1. In the projects root folder, run `composer install`  to install dependencies
-2. Create a MySQL or Postgress database
+2. Create a MySQL or PostgreSQL database
 3. Create an `.env` file and paste the following into it
 > make sure to fill in the database values correctly
 
